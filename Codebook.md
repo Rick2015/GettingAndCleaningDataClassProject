@@ -37,16 +37,16 @@
 ## Raw data
 ###  Source:  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 ###  Files: 
- X_train.txt - 7352 obs. of  561 variables
- X_test.txt - 2947 obs. of  561 variables
- y_train.txt - 7352 obs. of   1 variable
- y_test.txt - 2947 obs. of  1 variable
- subject_test.txt
- subject_train.txt
- features.txt
- activity_labels.txt
- features_info.txt
- README.txt (See README.txt for additional information on original variables)
+- X_train.txt - 7352 obs. of  561 variables
+- X_test.txt - 2947 obs. of  561 variables
+- y_train.txt - 7352 obs. of   1 variable
+- y_test.txt - 2947 obs. of  1 variable
+- subject_test.txt
+- subject_train.txt
+- features.txt
+- activity_labels.txt
+- features_info.txt
+- README.txt (See README.txt for additional information on original variables)
  
 ### License as Required by Authors:
 
@@ -62,10 +62,10 @@
   This subset was then grouped by Activity and Subject (group_by) and then averaged (summarise_each).
 
 ## Output:
-###  Combined Test & Train data sets: XTrainTest - 10299 obs. of  564 variables
-###  Subset of Combined data set: XTrainTestSub - 10299 obs. of  82 variables
-###  Summarized results of Grouping & Averaging: DFsum - 180 obs of  82 variables
-###  Uploaded File "tidy_data.txt" is the result of using write.table on DFsum.
+-  Combined Test & Train data sets: XTrainTest - 10299 obs. of  564 variables
+-  Subset of Combined data set: XTrainTestSub - 10299 obs. of  82 variables
+-  Summarized results of Grouping & Averaging: DFsum - 180 obs of  82 variables
+-  Uploaded File "tidy_data.txt" is the result of using write.table on DFsum.
 
 ## New Variables for Final Output
  [1] "ActivityLabel"                             "Subjects"                                  "ActivityNumber"                           
