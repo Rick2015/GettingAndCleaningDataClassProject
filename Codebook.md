@@ -68,6 +68,9 @@
 -  Uploaded File "tidy_data.txt" is the result of using write.table on DFsum.
 
 ## New Variables for Final Output
+
+"Average" appended to feature lables to reflect the calculating the mean on variables with mean and standard measurements.
+
  [1] "ActivityLabel"                             "Subjects"                                  "ActivityNumber"                           
  [4] "Average_1_tBodyAcc-mean-X"                 "Average_2_tBodyAcc-mean-Y"                 "Average_3_tBodyAcc-mean-Z"                
  [7] "Average_4_tBodyAcc-std-X"                  "Average_5_tBodyAcc-std-Y"                  "Average_6_tBodyAcc-std-Z"                 
