@@ -13,14 +13,14 @@ Goals
   5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 Running
-To run the script
+  To run the script
   1. checkout the repo
   2. source run_analysis.R
   3. ensure that you have the "dplyr" package installed.
   4. you have the required Samsung data
 
 Data Source
-  
+  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 Process
   Assuming in directory with Samsung test and train folders.
