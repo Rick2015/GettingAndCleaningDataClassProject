@@ -59,6 +59,7 @@ Output:
   Combined Test & Train data sets: XTrainTest - 10299 obs. of  564 variables
   Subset of Combined data set: XTrainTestSub - 10299 obs. of  82 variables
   Summarized results of Grouping & Averaging: DFsum - 180 obs of  82 variables
+  Uploaded File "tidy_data.txt" is the result of using write.table on DFsum.
 
 New Variables for Final Output
  [1] "ActivityLabel"                             "Subjects"                                  "ActivityNumber"                           
