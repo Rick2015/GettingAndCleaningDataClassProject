@@ -1,9 +1,9 @@
-Codebook for run_analysis.R
+# Codebook for run_analysis.R
 
-Introduction
+## Introduction
   There are six activities captured when subject wearing a smartphone (Samsung Galaxy S II) on the waist.
 
-  Activity Number & Activity Labels
+###  Activity Number & Activity Labels
 	1 WALKING
 	2 WALKING_UPSTAIRS
 	3 WALKING_DOWNSTAIRS
@@ -11,7 +11,7 @@ Introduction
 	5 STANDING
 	6 LAYING
 
-Every row in the Test and Train data set is a 128 element vector.
+### Every row in the Test and Train data set is a 128 element vector.
 - 3-axial raw signals, prefix 't' to denote time                         
    (tAcc-XYZ and tGyro-XYZ)
 
@@ -34,7 +34,7 @@ Every row in the Test and Train data set is a 128 element vector.
    (gravityMean, tBodyAccMean, tBodyAccJerkMean, tBodyGyroMean, tBodyGyroJerkMean)
 
 
-Raw data
+## Raw data
   Source:  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
   Files: 
   X_train.txt - 7352 obs. of  561 variables
@@ -48,7 +48,7 @@ Raw data
   features_info.txt
   README.txt (See README.txt for additional information on original variables)
  
-License as Required by Authors:
+### License as Required by Authors:
 
   License:
   ========
@@ -57,17 +57,17 @@ License as Required by Authors:
   This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.
   
 
-Processed data: 
+## Processed data: 
   Assignment was to output a subset of the combined Test & Train data set based on mean and standard (std) measurements.
   This subset was then grouped by Activity and Subject (group_by) and then averaged (summarise_each).
 
-Output:
+## Output:
   Combined Test & Train data sets: XTrainTest - 10299 obs. of  564 variables
   Subset of Combined data set: XTrainTestSub - 10299 obs. of  82 variables
   Summarized results of Grouping & Averaging: DFsum - 180 obs of  82 variables
   Uploaded File "tidy_data.txt" is the result of using write.table on DFsum.
 
-New Variables for Final Output
+## New Variables for Final Output
  [1] "ActivityLabel"                             "Subjects"                                  "ActivityNumber"                           
  [4] "Average_1_tBodyAcc-mean-X"                 "Average_2_tBodyAcc-mean-Y"                 "Average_3_tBodyAcc-mean-Z"                
  [7] "Average_4_tBodyAcc-std-X"                  "Average_5_tBodyAcc-std-Y"                  "Average_6_tBodyAcc-std-Z"                 
