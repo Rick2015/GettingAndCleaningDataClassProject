@@ -2,6 +2,8 @@
 
 ## Introduction
   There are six activities captured when subject wearing a smartphone (Samsung Galaxy S II) on the waist.
+  70% of the data was used for Training.
+  30% of the data was used for Testing.
 
 ###  Activity Number & Activity Labels
 	1 WALKING
