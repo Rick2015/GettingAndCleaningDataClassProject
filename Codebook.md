@@ -1,10 +1,9 @@
 Codebook for run_analysis.R
 
 Introduction
-There are six activities captured when subject wearing a smartphone (Samsung Galaxy S II) on the waist.
+  There are six activities captured when subject wearing a smartphone (Samsung Galaxy S II) on the waist.
 
   Activity Number & Activity Labels
-  --------------------
 	1 WALKING
 	2 WALKING_UPSTAIRS
 	3 WALKING_DOWNSTAIRS
@@ -12,9 +11,7 @@ There are six activities captured when subject wearing a smartphone (Samsung Gal
 	5 STANDING
 	6 LAYING
 
-
 Every row in the Test and Train data set is a 128 element vector.
------------------------------------------
 - 3-axial raw signals, prefix 't' to denote time                         
    (tAcc-XYZ and tGyro-XYZ)
 
