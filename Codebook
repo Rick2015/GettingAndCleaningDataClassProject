@@ -12,6 +12,7 @@ There are six activities captured when subject wearing a smartphone (Samsung Gal
 	5 STANDING
 	6 LAYING
 
+
 Every row in the Test and Train data set is a 128 element vector.
 -----------------------------------------
 - 3-axial raw signals, prefix 't' to denote time                         
@@ -37,11 +38,27 @@ Every row in the Test and Train data set is a 128 element vector.
 
 
 Raw data
-
+  Source:  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+  Files: 
+  X_train.txt - 7352 obs. of  561 variables
+  X_test.txt - 2947 obs. of  561 variables
+  y_train.txt - 7352 obs. of   1 variable
+  y_test.txt - 2947 obs. of  1 variable
+  subject_test.txt
+  subject_train.txt
+  features.txt
+  activity_labels.txt
+  features_info.txt
+  README.txt
 
 Processed data: 
   Assignment was to output a subset of the combined Test & Train data set based on mean and standard (std) measurements.
   This subset was then grouped by Activity and Subject (group_by) and then averaged (summarise_each).
+
+Output:
+  Combined Test & Train data sets: XTrainTest - 10299 obs. of  564 variables
+  Subset of Combined data set: XTrainTestSub - 10299 obs. of  82 variables
+  Summarized results of Grouping & Averaging: DF - 180 obs of  82 variables
 
 New Variables for Final Output
  [1] "ActivityLabel"                             "Subjects"                                  "ActivityNumber"                           
